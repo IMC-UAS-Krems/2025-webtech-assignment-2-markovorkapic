@@ -1,0 +1,28 @@
+img {
+    float: center;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px rgb(228, 128, 206) solid;
+}
+
+#topright{
+    align-items: right;
+
+} 
+
+
+/* credit Kemaya m on bootstrapexamples.com*/
+.cart-item img {
+     max-width: 100px;
+     height: auto;
+ }
+
+ .quantity-input {
+     width: 50px;
+ }
+
+ .cart-summary {
+     background-color: #f8f9fa;
+     border-radius: 10px;
+ }
