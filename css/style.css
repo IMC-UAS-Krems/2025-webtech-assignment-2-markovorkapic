@@ -6,10 +6,11 @@ img {
     border: 2px rgb(228, 128, 206) solid;
 }
 
-#topright{
-    align-items: right;
-
-} 
+#shoppingcart{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 
 
 /* credit Kemaya m on bootstrapexamples.com*/
