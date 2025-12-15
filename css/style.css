@@ -10,24 +10,20 @@ img {
     position: fixed;
     top: 0;
     right: 0;
+    
 }
 #shoppingcart{
     position: fixed;
     top: 0;
     right: 0;
+    background: rgba(57, 234, 169);
+    margin: 3.3rem;
+}
+li{
+    list-style-type: none;
+    
 }
 
-/* credit Kemaya m on bootstrapexamples.com*/
-.cart-item img {
-     max-width: 100px;
-     height: auto;
- }
 
- .quantity-input {
-     width: 50px;
- }
 
- .cart-summary {
-     background-color: #f8f9fa;
-     border-radius: 10px;
- }
+ 
