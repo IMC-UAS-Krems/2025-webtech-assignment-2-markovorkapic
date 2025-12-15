@@ -1,3 +1,10 @@
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9f4ff; 
+  color: #1f3c88;             
+}
+
 img {
     float: center;
     width:  200px;
@@ -16,14 +23,99 @@ img {
     position: fixed;
     top: 0;
     right: 0;
-    background: rgba(57, 234, 169);
-    margin: 3.3rem;
-}
-li{
-    list-style-type: none;
-    
+    margin: 4rem;
 }
 
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
 
+#welcomePage {
+  background: linear-gradient(135deg, #cc5219, #e90505); 
+}
 
- 
+.hero-section {
+  background: linear-gradient(135deg, #a15208, #956100); 
+  color: #1f3c88;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(77, 163, 255, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;       
+  background-color: #ffffff; 
+  padding: 10px;             
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-body h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body p {
+  font-weight: bold;
+  color: #198754; 
+}
+
+#cartSection .card {
+  border-radius: 14px;
+}
+
+#cartItems li {
+  font-size: 0.95rem;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+  color: #f5a910;
+  border-color: #9db32e;
+}
+
+.btn-outline-primary:hover {
+  background-color: #d9ec27;
+  color: #ffffff;
+}
+
+.btn-success {
+  font-size: 1.05rem;
+  background-color: #61b107;
+  border-color: #c6df0b;
+}
+
+.btn-success:hover {
+  background-color: #06e32e;
+}
+
+#checkoutSection {
+  max-width: 700px;
+}
+
+input.form-control {
+  border-radius: 8px;
+}
+
+#confirmation .alert {
+  font-size: 1.1rem;
+  border-radius: 12px;
+  background-color: #dff1ff; 
+  color: #1f3c88;
+  border: none;
+}

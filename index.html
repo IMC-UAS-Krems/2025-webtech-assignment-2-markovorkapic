@@ -1,13 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Charity website</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/scripts.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+<meta charset="UTF-8">
+<title>Charity for families in need</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -15,278 +14,138 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
-
 </head>
-
 <body>
-    <h1>Welcome to (title)</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <p>
-        This website is a charity for families that survived natural disasters.
-    </p>
+
+<section id="welcomePage" class="vh-100 d-flex align-items-center justify-content-center text-center text-white bg-primary">
+  <div>
+    <img src="img/fam.jpeg" style="width: 500px; height: 500px; border: none;">
+    <h1 class="display-4 mb-3">FamCharity</h1>
+    <p class="lead mb-4">Where your donation helps save lives.</p>
+    <button id="startBtn" class="btn btn-light btn-lg">Start Donating</button>
+  </div>
+</section>
+<div id="mainContent" class="d-none">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">FamCharity</a>
+    </div>
+  </nav>
+
+  <header class="text-center text-white py-5 bg-danger">
+    <h1>Help families recover from natural disasters!</h1>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                <button class="accordion-button bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
+                    Our mission:
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the first items accordion body.</strong> It is shown by default, until the collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                    this with custom CSS or overriding our default variables. Its also worth noting that just about any
-                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Hello, we have started this charity because of the recent natural disasters that have ravaged the world and parts of space. We are here to provide
+                     aid to all families effected by natural disasters. Our goal is to make their lives easier and help them in these trying times while they recover.
+                      Donate now and help us help others with a small or large donation. Together we can make the world a better place.
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed bg-secondary" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
+                    What else you can do to help:
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the second items accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. Its also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the third items accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. Its also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    You can help by volunteering at our local shelters where we house families after earthquakes and/or tsunamis destroy their homes. You can also donate old clothes
+                     food and other items directly to our address: Totally real Street 67, Tottally real town, 8900, Agartha.
                 </div>
             </div>
         </div>
     </div>
+  </header>
 
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/blankets.jpeg" class="card-img-top" alt="Blankets">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Blankets 50$</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Blankets', 20.00)" type="button" class="btn btn-success">Add to
-                                cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/hygienekit.jpg" class="card-img-top" alt="Hygiene kit">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Hygiene kit</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Hygiene kit', 20.00)" type="button" class="btn btn-success">Add
-                                to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/images (1).jpeg" class="card-img-top" alt="Warm meal">
-                    <div class="card-body">
-                        <h5 class="card-title">Warm meal</h5>
-                        <div class="product">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Warm meal', 20.00)" type="button" class="btn btn-success">Add to
-                                cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/images.jpeg" class="card-img-top" alt="Clothes">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Clothes</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Clothes', 20.00)" type="button" class="btn btn-success">Add to
-                                cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/plush.jpeg" class="card-img-top" alt="Plushies for kids">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Plushies for kids</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Plushies for kids', 20.00)" type="button"
-                                class="btn btn-success">Add to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/sleepingbag.jpeg" class="card-img-top" alt="Sleeping bag">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Sleeping bag</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Sleeping bag', 20.00)" type="button" class="btn btn-success">Add
-                                to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Pack-of-bottled-water.jpg" class="card-img-top" alt="pack of bottled water">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Pack of bottled water</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Pack of bottled water', 20.00)" type="button"
-                                class="btn btn-success">Add to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/firstaid.jpeg" class="card-img-top" alt="First aid kit">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">First aid kit</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('First aid kit', 20.00)" type="button"
-                                class="btn btn-success">Add to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/utensils.jpg" class="card-img-top" alt="Cooking utensils">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Cooking utensils</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Cooking utensils', 20.00)" type="button"
-                                class="btn btn-success">Add to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/groceries.jpg" class="card-img-top" alt="Groceries">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Groceries</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Groceries', 20.00)" type="button" class="btn btn-success">Add to
-                                cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/shoes.jpg" class="card-img-top" alt="Shoes for children">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Shoes for children</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Shoes for children', 20.00)" type="button"
-                                class="btn btn-success">Add to cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/charity.jpeg" class="card-img-top" alt="img/charity.jpeg">
-                    <div class="card-body">
-                        <div class="product">
-                            <h5 class="card-title">Donate directly!</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the cards content.</p>
-                            <button onclick="addToCart('Donate', 20.00)" type="button" class="btn btn-success">Add to
-                                cart</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Donation Options</h2>
+    <div class="row" id="productList"></div>
+  </section>
+
+  <section class="container my-5" id="shoppingcart">
+    <div class="card">
+      <div class="card-body">
+        <h4>Your Cart</h4>
+        <ul id="cartItems" class="list-group mb-3"></ul>
+        <p class="fw-bold">Total: €<span id="totalPrice">0.00</span></p>
+        <button id="checkoutBtn" class="btn btn-success w-100" disabled>
+          Proceed to Checkout
+        </button>
+      </div>
     </div>
+  </section>
 
-    <button onclick="openCart(this)" style='font-size:24px' class="btn btn-secondary" id="shoppingcartbutton">View cart
+  <section class="container my-5 d-none" id="checkoutSection">
+    <h3>Checkout</h3>
+
+    <form id="checkoutForm" class="needs-validation" novalidate>
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label">Full Name</label>
+          <input id="fullName" type="text" class="form-control" required>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label class="form-label">Email</label>
+          <input id="email" type="email" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input id="address" type="text" class="form-control" required>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label">Phone Number</label>
+          <input id="phone" type="tel" class="form-control" pattern="[0-9]{10}" required>
+          <div class="invalid-feedback">Enter a 10-digit phone number</div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label class="form-label">ZIP Code</label>
+          <input id="zip" type="text" class="form-control" maxlength="6" required>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Confirm Donation</button>
+    </form>
+  </section>
+
+  <section class="container my-5 d-none" id="confirmation">
+    <div class="alert alert-success text-center">
+      <h4>Thank you for supporting families in need</h4>
+      <p id="summary"></p>
+    </div>
+  </section>
+
+
+  <button onclick="closeCart(this)" style='font-size:24px' class="btn btn-secondary" id="shoppingcartbutton">View cart
         <i class="fa-solid fa-cart-shopping"></i></button>
 
         
-    <div class="container py-5" id="shoppingcart">
-        
-    </div>
-
+    
 
     <script>
         hideCart();
     </script>
 
+</div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
-
 </html>
